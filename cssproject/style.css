@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font */
+
+.section_one{
+    width: 100%;
+    height: 500px;
+    background:  #1f2937;
+    /* padding-left: 20px; */
+}
+.items{
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+
+}
+.header{
+    height: 50px;
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header h1 a{
+    font-size: 48px;
+    /* font-family: ; */
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.menu ul{
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    display: flex;
+    gap: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.inner{
+    margin-top: 10%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+.text{
+    height: 150px;
+    flex-wrap: wrap;
+    /* background: gray; */
+}
+.text h1{
+    /* text-wrap: wrap; */
+    color: white;
+    font-size: 50px;
+    /* font-family: sans-serif; */
+}
+input{
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
+    margin-top: 15px;
+    /* padding: 20px; */
+    background-color: rgb(102, 102, 245);
+    border: none;
+    color: white;
+    font-size: 20px;
+    /* font-family: sans-serif; */
+}
+.text p{
+    color: rgb(197, 186, 186);
+    font-size: 20px;
+}
+.text2{
+    width: 50%;
+    height: 150px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* section 2 */
+.randominfo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 70%;
+    margin-top: 30px;
+}
+.content h1{
+    text-align: center;
+    /* font-weight: 200; */
+    font-size: 30px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.boxes{
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.box{
+    width: 100%;
+    height: 200px;
+}
+.box1,.box2,.box3,.box4{
+    height: 150px;
+    border: 4px solid rgb(39, 154, 199);
+    border-radius: 20px;
+}
+.box p{
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
+.inspiring{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+}
+.quote{
+    width: 60%;
+    height: 200px;
+    
+}
+.quote P{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-style:italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+h3{
+    float: right;
+    padding: 10px;
+}
+/* products */
+.product{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.callaction{
+    width: 80%;
+    height: 150px;
+    margin-top: 6%;
+    background-color: rgb(105, 105, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 50px;
+}
+.quote2 h2{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 25px;
+    color: white;
+}
+.quote2 p{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 20px;
+    color: white;
+}
+.callaction input{
+    width: 10%;
+    border: 2px solid white;
+    border-width: 2px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
